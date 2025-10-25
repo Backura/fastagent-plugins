@@ -1,6 +1,6 @@
-# 🚀 AI Agents and Skills
-
 ![README Banner](README.png)
+
+# 🚀 AI Agents and Skills
 
 > [!IMPORTANT]
 > 🌟 **This project will be part of a bigger ecosystem! STAY TUNED**
