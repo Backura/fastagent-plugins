@@ -1,4 +1,6 @@
-# FastAgent Marketplace
+![FastAgent Marketplace](./README.png)
+
+# FastAgent Plugins
 
 **Professional AI Agents & Skills for Claude Code** | Covering Development, DevOps, Cloud, and Beyond
 
