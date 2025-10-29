@@ -1,145 +1,315 @@
-![README Banner](README.png)
+# FastAgent Marketplace
 
-# 🚀 AI Agents and Skills
+**Professional AI Agents & Skills for Claude Code** | Covering Development, DevOps, Cloud, and Beyond
 
 > [!IMPORTANT]
 > 🌟 **This project will be part of a bigger ecosystem! STAY TUNED**
 > 
-> 🥇 Your contributions will be recognized and featured with your name and GitHub profile. 
->
+> 🥇 Your contributions will be recognized and featured with your name and GitHub profile.
+> 
 > 🙌 Join our community of developers making AI coding better for everyone!
 
-An open-source collection of AI agents, subagents, skills, and rules designed to help developers, engineers and builders write standard and maintainable code, **FASTER** ⚡
+## What is FastAgent?
 
-**Tags:** #cursor #claude #subagents #codex #windsurf #agents.md #kiro #copilot
+FastAgent is a curated collection of professional plugins for Claude Code that extend your AI coding assistant with specialized agents, skills, and commands. Our approach is simple: **pick only what you need, avoid token bloat, and get better results**.
 
-## 💡 What is this?
+### Why FastAgent?
 
-[Agents and Skills](https://github.com/armanzeroeight/agents-skills) is a comprehensive collection of modular capabilities that extend AI coding assistants' functionality. It includes:
+- **🎯 Focused & Efficient**: Each plugin is laser-focused on specific technologies or roles
+- **💰 Token-Conscious**: Only load what you need - save tokens, save costs
+- **🔧 Modular Design**: Mix and match plugins based on your workflow
+- **📦 Easy Installation**: One command to add capabilities
+- **🚀 Production-Ready**: Battle-tested patterns and best practices
 
-- **Agents** – Specialized AI personas for different development workflows (frontend, backend, DevOps, etc.)
-- **Subagents** – Focused agents for specific tasks within larger workflows
-- **Skills** – Modular capabilities containing instructions, scripts, and resources organized in folders
-- **Rules** – Best practices, standards, and guidelines for programming languages and tools
+## Our Plugin Philosophy
 
-Think of it as your AI coding companion's knowledge base – helping you follow industry standards and write clean, maintainable code.
+We organize plugins into three tiers to make it easy to choose what you need:
 
-## 🎯 Who is this for?
+### 🌟 Essential Tier
+Broad-spectrum plugins that benefit most developers. These cover fundamental workflows like code review, debugging, and refactoring.
 
-- Developers who want to follow best practices
-- Cloud engineers and Platform engineers
-- Teams looking to standardize their coding practices
-- AI coding assistants and their users
+**Who should use**: Everyone
 
-## 🔌 Compatible Products
+### 👤 Role Tier
+Role-based plugins combining multiple technologies and workflows for specific job functions.
 
-This collection works seamlessly with:
+**Who should use**: Developers in specialized roles
 
-- **Claude Code** – Anthropic's AI coding assistant
-- **Cursor** – AI-first code editor
-- **OpenAI Codex** – OpenAI's code generation model
-- **Windsurf** – AI-powered development environment
-- **agents.md** – Agent configuration format
+### 🔧 Tech Tier
+Technology-specific plugins for deep expertise in particular tools and frameworks. Choose the ones matching your stack.
 
-## ✨ Features
+**Who should use**: Developers working with specific technologies
 
-### 🤖 Agents & Subagents
-- **100+ specialized agents** for different development workflows
-- **Subagents** for focused, task-specific operations
-- Organized by domain: Development, Infrastructure, DevOps, Research, and more
+## Quick Start
 
-### 🎯 Skills
-Create, manage, and share Skills to extend Claude's capabilities in Claude Code.
+### 1. Install Claude Code
 
-**Skills are modular capabilities** that extend Claude's functionality through organized folders containing:
-- Instructions and prompts
-- Scripts and automation
-- Resources and documentation
-- Configuration files
+Make sure you have [Claude Code](https://claude.ai/download) installed.
 
-Skills allow you to package domain expertise and reusable workflows that can be shared across projects and teams.
+### 2. Add the FastAgent Marketplace
 
-### 📋 Rules
-- **Rule sets** covering a broad spectrum of programming languages and services
-- **Best practices** and coding standards
-- **AI-optimized** format for seamless integration with coding assistants
+```bash
+# In Claude Code, run:
+/plugin marketplace add armanzeroeight/agents-skills
+```
 
-### 🌍 Community-Driven
-- **Open-source** with contributions from developers worldwide
-- **Continuously updated** with the latest best practices
+### 3. Browse and Install Plugins
 
-## 📚 What's Included
+```bash
+# Open the plugin browser
+/plugin
 
-### 🤖 Agents
-Browse our collection of 100+ specialized agents in the `/agents` directory:
+# Or install directly
+/plugin install <plugin-name>@fastagent-marketplace
+```
 
-- **Development Assist** – Frontend, Backend, Full-stack developers
-- **Infrastructure & DevOps** – Cloud architects, Database admins, Network engineers
-- **Specialized Domains** – AI/ML engineers, Blockchain developers, Security auditors
-- **Content & Research** – Technical researchers, Content marketers, Data analysts
-- **And many more!**
+### 4. Start Using
 
-### 🎯 Skills
-Skills extend your AI assistant's capabilities with modular, reusable components. Each skill is a self-contained folder with everything needed for a specific capability.
+Once installed, agents and skills activate automatically based on your work context. Commands are available via slash commands.
 
-### 📋 Rules
+## Available Plugins
 
-| Name | Category | Description |
-|------|----------|-------------|
-| [Terraform Rules](rules/terraform.md) | Infrastructure as Code | Write clean, secure, and maintainable IaC |
+### 🌟 Essential Tier
 
-More rules and languages coming soon! 🎉
+| Plugin | Description | Agents | Skills | Commands |
+|--------|-------------|--------|--------|----------|
+| **developer-toolkit** | Essential development tools for code review, debugging, and refactoring | Code Reviewer, Debugger, Refactoring Architect | Code Review Practices | `/quick-review`, `/debug-trace` |
 
-## 🤝 How to Contribute
+---
 
-We'd love your help making this collection even better! Here's how:
+### 🔧 Tech Tier
 
-1. **Create a PR** with new agents, skills, rules, or improvements
-2. **Follow the template** – check out existing files to see the structure
-3. **Add an icon** (for rules) – Drop an SVG logo in the `rules/icons/` directory
-   - [Logosear.ch](https://logosear.ch/) has tons of high-quality logos you can use
-4. **Keep it simple** – Write in a friendly, straightforward tone. Use emojis when they fit! ✨
+| Plugin | Description | Agents | Skills | Commands |
+|--------|-------------|--------|--------|----------|
+| **terraform-toolkit** | Complete Terraform IaC toolkit with module scaffolding, state management, and cost estimation | IaC Architect | Module Scaffolder, State Manager, Cost Estimator, Documentation Generator, Dependency Analyzer, Upgrade Assistant | - |
+| **kubernetes-toolkit** | Kubernetes container orchestration toolkit for production-ready manifests and cluster management | K8s Operations Specialist | Kubernetes Best Practices | - |
 
-### Contributing Agents
-- Place agent files in the `/agents` directory
-- Use descriptive names (e.g., `frontend-developer.md`, `devops-engineer.md`)
-- Include clear role definitions, capabilities, and example use cases
+---
 
-### Contributing Skills
-- Create a folder structure with instructions, scripts, and resources
-- Document the skill's purpose and usage
-- Make it modular and reusable
+### 👤 Role Tier
 
-### Contributing Rules
-Each rule file should include:
-- **Frontmatter** with metadata (name, description, category, icon, version, globs)
-- **Clear examples** showing good vs bad practices
-- **Practical code snippets** that developers can actually use
-- **Organized sections** covering different aspects of the language/tool
+*Coming soon! Role-based plugins combining multiple technologies for specific job functions.*
 
-## 📖 How to Use
+## How It Works
 
-### For AI Coding Assistants
-- **Load agents** to give your AI assistant specialized knowledge and personas
-- **Apply rules** as steering files or context in your AI IDE
-- **Activate skills** to extend functionality with modular capabilities
-- **Chain subagents** for complex, multi-step workflows
+### Agents = Strategy
+Agents make high-level architectural decisions and choose the right approach. They focus on the "what" and "why".
 
-### For Developers
-- Reference agents and rules during code reviews
-- Share with your team as coding standards
-- Use as learning resources for best practices
-- Contribute improvements based on your experience
+**Example**: The Code Reviewer agent decides review scope, prioritizes issues, and determines severity levels.
 
-### Getting Started
-1. Browse the `/agents` and `/rules` directories
-2. Copy relevant files to your project or AI assistant configuration
-3. Customize as needed for your specific use case
-4. Share improvements back with the community
+### Skills = Tactics
+Skills handle specific operations with focused, step-by-step instructions. They focus on the "how".
 
-## 🌟 Why [Agents & Skills](https://github.com/armanzeroeight/agents-skills)?
+**Example**: The Code Review Practices skill provides detailed guidance on conducting effective reviews.
 
-Because writing good code shouldn't be hard. With the right guidelines and AI assistance, you can focus on solving problems instead of remembering syntax and best practices.
+### Commands = Quick Actions
+Commands are user-invoked shortcuts for frequently-used prompts.
+
+**Example**: `/quick-review` triggers a fast code review of specific files.
+
+### The Magic: Automatic Delegation
+
+Agents automatically delegate to skills when needed. You get strategic thinking at the top level and tactical execution when required - all without manual intervention.
+
+## Team Configuration (Optional)
+
+For automatic plugin installation across your team, add to your project's `.claude/settings.json`:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "fastagent-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "armanzeroeight/agents-skills"
+      }
+    }
+  },
+  "enabledPlugins": [
+    "developer-toolkit@fastagent-marketplace",
+    "terraform-toolkit@fastagent-marketplace"
+  ]
+}
+```
+
+When team members trust the repository, plugins install automatically.
+
+## Usage Examples
+
+### Using Agents
+
+Agents activate automatically based on context:
+
+```bash
+# Code review
+> Review my recent changes
+
+# Debugging
+> Help me debug this error
+
+# Infrastructure design
+> Design a Terraform module for our VPC
+```
+
+Or invoke explicitly:
+
+```bash
+> Use the code-reviewer agent to check my PR
+> Ask the iac-architect agent about module design
+```
+
+### Using Skills
+
+Skills are invoked automatically by agents or Claude when relevant:
+
+```bash
+# Triggers terraform-module-scaffolder skill
+> Create a new Terraform module for S3 buckets
+
+# Triggers code-review-practices skill
+> What should I look for in this code review?
+```
+
+### Using Commands
+
+Commands are user-invoked with slash syntax:
+
+```bash
+# Quick code review
+/quick-review
+
+# Debug trace
+/debug-trace
+```
+
+## Managing Plugins
+
+### View Installed Plugins
+
+```bash
+/plugin
+```
+
+### Enable/Disable Plugins
+
+```bash
+# Disable without uninstalling
+/plugin disable <plugin-name>@fastagent-marketplace
+
+# Re-enable
+/plugin enable <plugin-name>@fastagent-marketplace
+```
+
+### Uninstall Plugins
+
+```bash
+/plugin uninstall <plugin-name>@fastagent-marketplace
+```
+
+### Update Marketplace
+
+```bash
+/plugin marketplace update fastagent-marketplace
+```
+
+## Token Efficiency
+
+One of FastAgent's core principles is token efficiency. Here's how we help you save:
+
+### Only Load What You Need
+
+Instead of one massive plugin with everything, choose specific plugins:
+
+```bash
+# ❌ Don't load everything
+# One giant plugin with all technologies
+
+# ✅ Load only what you use
+/plugin install terraform-toolkit@fastagent-marketplace  # Only if you use Terraform
+/plugin install kubernetes-toolkit@fastagent-marketplace  # Only if you use K8s
+```
+
+### Progressive Disclosure
+
+Skills use progressive disclosure - detailed documentation is loaded only when needed:
+
+```
+skill/
+├── SKILL.md          # Loaded always (concise)
+└── references/       # Loaded only when needed (detailed)
+```
+
+### Focused Skills
+
+Each skill does one thing well, keeping context lean:
+
+- ✅ `terraform-state-manager` - State operations only
+- ✅ `terraform-cost-estimator` - Cost analysis only
+- ❌ `terraform-everything` - Too broad, wastes tokens
+
+## Contributing
+
+We welcome contributions! Here's how:
+
+### Adding a New Plugin
+
+1. Fork the repository
+2. Create plugin directory: `plugins/your-plugin-name/`
+3. Add agents, skills, and commands
+4. Update `.claude-plugin/marketplace.json`
+5. Submit a pull request
+
+### Plugin Structure
+
+```
+plugins/your-plugin/
+├── agents/
+│   └── your-agent.md
+├── skills/
+│   └── your-skill/
+│       └── SKILL.md
+└── commands/
+    └── your-command.md
+```
+
+### Guidelines
+
+- **Agents**: Focus on strategy and high-level decisions
+- **Skills**: Provide tactical, step-by-step guidance
+- **Commands**: Keep simple and focused on one action
+- **Documentation**: Clear descriptions with trigger words
+- **Testing**: Test with Claude Code before submitting
+
+See [Plugin Design Manifesto](.docs/plugin-design-manifesto.md) for detailed guidelines.
+
+## Documentation
+
+- [Plugin Design Manifesto](.docs/plugin-design-manifesto.md) - Design principles and best practices
+- [Claude Plugins](.docs/claude-plugins.md) - Plugin system overview
+- [Claude Marketplaces](.docs/claude-marketplaces.md) - Marketplace management
+- [Claude Commands](.docs/claude-commands.md) - Slash commands guide
+- [Claude Skills](.docs/claude-skills.md) - Agent Skills documentation
+- [Claude Subagents](.docs/claude-subagents.md) - Subagents guide
+
+## Roadmap
+
+- [x] Essential tier plugins (developer-toolkit)
+- [x] Tech tier plugins (terraform, kubernetes)
+- [ ] Role tier plugins (frontend-developer, devops-engineer, data-scientist)
+- [ ] More tech plugins (React, Python, Go, AWS, Azure, GCP)
+- [ ] Community plugin templates
+- [ ] Plugin testing framework
+- [ ] Plugin analytics and usage insights
+
+## Support
+
+- **Issues**: [GitHub Issues](https://github.com/armanzeroeight/agents-skills/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/armanzeroeight/agents-skills/discussions)
+- **Website**: [gofastagent.com](https://gofastagent.com)
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 

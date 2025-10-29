@@ -1,0 +1,122 @@
+{
+  "name": "fastagent-marketplace",
+  "owner": {
+    "name": "Arman Nourifar",
+    "url": "https://github.com/armanzeroeight"
+  },
+  "metadata": {
+    "description": "Professional AI agents and skills for Developers, Engineers, and Creators. | Covering programming languages, DevOps, Cloud, and beyond.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "developer-toolkit",
+      "source": "./plugins/developer-toolkit",
+      "description": "Essential development tools for code review, debugging, and refactoring. Includes strategic agents for high-level decisions and tactical skills for specific operations.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "code-review",
+        "debugging",
+        "refactoring",
+        "code-quality",
+        "best-practices"
+      ],
+      "tags": [
+        "role:developer",
+        "tier:essential"
+      ],
+      "category": "Development",
+      "strict": false,
+      "commands": [
+        "commands/quick-review.md",
+        "commands/debug-trace.md"
+      ],
+      "agents": [
+        "agents/code-reviewer.md",
+        "agents/debugger.md",
+        "agents/refactoring-architect.md"
+      ],
+      "skills": [
+        "skills/code-review-practices"
+      ]
+    },
+    {
+      "name": "terraform-toolkit",
+      "source": "./plugins/terraform-toolkit",
+      "description": "Terraform infrastructure as code toolkit with module scaffolding, state management, cost estimation, and upgrade assistance. Includes strategic IaC architect agent.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "terraform",
+        "infrastructure-as-code",
+        "state-management",
+        "cost-estimation",
+        "terraform-modules"
+      ],
+      "tags": [
+        "tech:terraform",
+        "tier:tech"
+      ],
+      "category": "Infrastructure as Code",
+      "strict": false,
+      "commands": [],
+      "agents": [
+        "agents/terraform-expert.md"
+      ],
+      "skills": [
+        "skills/terraform-module-scaffolder",
+        "skills/terraform-state-manager",
+        "skills/terraform-cost-estimator",
+        "skills/terraform-documentation-generator",
+        "skills/terraform-dependency-analyzer",
+        "skills/terraform-upgrade-assistant"
+      ]
+    },
+    {
+      "name": "kubernetes-toolkit",
+      "source": "./plugins/kubernetes-toolkit",
+      "description": "Kubernetes container orchestration toolkit for writing production-ready manifests, managing clusters, and implementing cloud-native best practices.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "kubernetes",
+        "k8s",
+        "container-orchestration",
+        "cloud-native",
+        "manifests"
+      ],
+      "tags": [
+        "tech:kubernetes",
+        "tier:tech"
+      ],
+      "category": "Container Orchestration",
+      "strict": false,
+      "commands": [],
+      "agents": [
+        "agents/k8s-expert.md"
+      ],
+      "skills": [
+        "skills/kubernetes-best-practices"
+      ]
+    }
+  ]
+}
